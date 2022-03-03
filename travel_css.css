@@ -1,0 +1,118 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(background.jpg);
+}
+#container {
+    width: 768px;
+    background-color: white;
+    margin: auto;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+nav a:link {
+    text-decoration: none;
+	color: #25A62D;
+}
+nav a:visited {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #25A62D;
+    border-radius: 20px;
+	padding: 5px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #131313;
+}
+aside {
+    width: 145px;
+    height: 1600px;
+    float: left;
+    background-color: #CF0821;
+    padding-left: 5px;
+}
+header {
+    width: 767px;
+    height: 250px;
+    background-color: #FFFFFF;
+    background-image: url(dominicanrepublicflag.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+main {
+    width: 598px;
+    height: 1500px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+footer {
+    width: 768px;
+    height: 250px;
+    clear: both;
+    background-color: #012962;
+}
+a {
+    color: #29A415;
+    text-decoration: none;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-right: 60px;
+	font-family: los-feliz, serif;
+    font-size: 18pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 600px;
+}
+nav {
+}
+p img {
+    float: right;
+    border: thin solid #000000;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+h3 {
+    color: #012A62;
+}
+h1 {
+    color: #012962;
+}
+tr td img {
+    text-align: center;
+}
+aside p {
+    color: #E7D7D8;
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #29A416;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+h2 {
+    color: #012962;
+}
+
+.submit_btn:hover {
+	 -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
